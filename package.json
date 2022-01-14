@@ -1,0 +1,24 @@
+{
+  "name": "crawling",
+  "version": "1.0.0",
+  "description": "",
+  "main": "commonVar.js",
+  "scripts": {
+    "start": "node dailynews.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PreAgile/crawling.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PreAgile/crawling/issues"
+  },
+  "homepage": "https://github.com/PreAgile/crawling#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "puppeteer": "^13.0.1"
+  }
+}
