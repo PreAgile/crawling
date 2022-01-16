@@ -34,10 +34,10 @@ cheerio는 text로 쓰여진 부분을 수집하기위해 사용했습니다.
     const $$$ = cheerio.load($html);
     const subCategoryName = $$$(`li[id='Menu2_GB0${k}'] a`);
     await page.click(`li[id='Menu2_GB0${k}'] a`);
-    console.log(`======== 현재 하위 카테고리 @@ ${subCategoryName.text()} @@ ========`);
   for (let j = 2; j <= pages.length - 1; j++) {
-    console.log(`======== 현재 ${j - 1} 페이지 ========`);
     for (let i = 1; i <= articles.length; i++) {
+      console.log(`======== 현재 하위 카테고리 @@ ${subCategoryName.text()} @@ ========`);
+      console.log(`======== 현재 ${j - 1} 페이지 ========`);
       console.log(`======== 위에서부터 ${i}번째 기사 ========`);
       /*
        - 에러가 발생할때  -
