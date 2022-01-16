@@ -4,7 +4,7 @@
   "description": "",
   "main": "commonVar.js",
   "scripts": {
-    "start": "node crawlingNews.js"
+    "start": "node test.js"
   },
   "repository": {
     "type": "git",
